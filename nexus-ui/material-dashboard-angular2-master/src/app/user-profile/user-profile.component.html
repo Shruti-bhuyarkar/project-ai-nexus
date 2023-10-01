@@ -1,3 +1,4 @@
+<link rel ="stylesheet" href="user-profile.component.css">
 <div class="main-content"> 
   <div class="container-fluid">    
       <div class="row">
@@ -79,9 +80,28 @@
                                   </div> -->
                               </div>
                           </div>
-                          <button mat-raised-button type="submit" class="btn btn-danger pull-right">Update Profile</button>
-                          <div class="clearfix"></div>
-                      </form>
+                        </form>
+                          <!-- <div class="container"> -->
+                          <button  type="button" class="btn btn-danger pull-right" onclick="openPopup()">Update Profile</button>
+                          <div class="popup" id="popup">
+                           <!-- <img src="https://www.pngegg.com/en/png-yamfg"> -->
+                            <h3>Profile updated successfully ! </h3>
+                            <button type="button" onclick="openPopup()">OK</button>
+                          <!-- <div class="clearfix"></div> -->
+                        <!-- </div> -->
+                        </div>
+                        <script>
+                          let popup = document.getElementById("popup");
+                      
+                          function openPopup(){
+                            popup.classList.add("open-popup");
+                          }
+                          function closePopup(){
+                            popup.classList.remove("open-popup");
+                          }
+                        </script>                  
+                        
+                  </div>   
                   </div>
               </div>
           </div>
@@ -105,5 +125,5 @@
       </div>
   </div>
 
-</div>
 
+ 

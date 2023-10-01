@@ -10,7 +10,13 @@ const routes: Routes =[
     path: '',
     redirectTo: 'dashboard',
     pathMatch: 'full',
-  }, {
+  }, 
+  // {
+  //   path: 'user-profile',
+  //   redirectTo: 'user-profile',
+  //   pathMatch: 'full',
+  // },
+  {
     path: '',
     component: AdminLayoutComponent,
     children: [{
