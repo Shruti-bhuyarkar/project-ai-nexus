@@ -12,11 +12,12 @@ import { ToolDetailComponent } from 'app/tool-detail/tool-detail.component';
 // import { UpgradeComponent } from '../../upgrade/upgrade.component';
 
 export const AdminLayoutRoutes: Routes = [
+    { path: 'home',          component: HomeComponent },
     { path: 'dashboard',      component: DashboardComponent },
     { path: 'user-profile',   component: UserProfileComponent },
     { path: 'ai-tools',     component: TableListComponent },
     { path: 'typography',     component: TypographyComponent },
-    { path: 'home',          component: HomeComponent },
+    
     // { path: 'maps',           component: MapsComponent },
     { path: 'notifications',  component: NotificationsComponent },
     { path: 'toolDetail',        component: ToolDetailComponent},
