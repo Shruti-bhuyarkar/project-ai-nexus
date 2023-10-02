@@ -8,7 +8,7 @@ import { ComponentsModule } from './components/components.module';
 import { AppComponent } from './app.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import {MatCardModule} from '@angular/material/card';
-import { TestingCompComponent } from './testing-comp/testing-comp.component';
+import { ToolDetailComponent } from './tool-detail/tool-detail.component';
 import { TestingComp2Component } from './testing-comp2/testing-comp2.component';
 
 @NgModule({
@@ -25,7 +25,7 @@ import { TestingComp2Component } from './testing-comp2/testing-comp2.component';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
-    TestingCompComponent,
+    ToolDetailComponent,
     TestingComp2Component,
 
   ],
