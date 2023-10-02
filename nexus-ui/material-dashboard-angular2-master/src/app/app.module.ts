@@ -8,6 +8,8 @@ import { ComponentsModule } from './components/components.module';
 import { AppComponent } from './app.component';
 import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.component';
 import {MatCardModule} from '@angular/material/card';
+import { TestingCompComponent } from './testing-comp/testing-comp.component';
+import { TestingComp2Component } from './testing-comp2/testing-comp2.component';
 
 @NgModule({
   imports: [
@@ -23,6 +25,8 @@ import {MatCardModule} from '@angular/material/card';
   declarations: [
     AppComponent,
     AdminLayoutComponent,
+    TestingCompComponent,
+    TestingComp2Component,
 
   ],
   providers: [],
