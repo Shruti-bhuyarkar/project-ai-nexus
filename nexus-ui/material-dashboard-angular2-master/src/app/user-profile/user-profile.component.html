@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="user-profile.component.css">
+
 <!-- <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 <div class="main-content">
@@ -84,25 +84,9 @@
                 </div>
               </div>
             </form>
-            <!-- <div class="container"> -->
-            <button type="button" class="btn btn-danger pull-right" onclick="openPopup()">Update Profile</button>
-            <div class="popup" id="popup">
-              <!-- <img src="https://www.pngegg.com/en/png-yamfg"> -->
-              <h3>Profile updated successfully ! </h3>
-              <button type="button" onclick="openPopup()">OK</button>
-              <!-- <div class="clearfix"></div> -->
-              <!-- </div> -->
-            </div>
-            <script>
-              let popup = document.getElementById("popup");
-
-              function openPopup() {
-                popup.classList.add("open-popup");
-              }
-              function closePopup() {
-                popup.classList.remove("open-popup");
-              }
-            </script>
+            <a class="nav-link" routerLink="/home">
+              <button type="submit" class="btn btn-danger pull-right">Update Profile</button>
+            </a>
 
           </div>
         </div>
