@@ -8,7 +8,7 @@ import { HomeComponent } from '../../home/home.component';
 // import { MapsComponent } from '../../maps/maps.component';
 import { NotificationsComponent } from '../../notifications/notifications.component';
 import { UpgradeComponent } from 'app/upgrade/upgrade.component';
-import { TestingCompComponent } from 'app/testing-comp/testing-comp.component';
+import { ToolDetailComponent } from 'app/tool-detail/tool-detail.component';
 // import { UpgradeComponent } from '../../upgrade/upgrade.component';
 
 export const AdminLayoutRoutes: Routes = [
@@ -19,5 +19,5 @@ export const AdminLayoutRoutes: Routes = [
     { path: 'home',          component: HomeComponent },
     // { path: 'maps',           component: MapsComponent },
     { path: 'notifications',  component: NotificationsComponent },
-    { path: 'upgrade',        component: TestingCompComponent },
+    { path: 'toolDetail',        component: ToolDetailComponent},
 ];
